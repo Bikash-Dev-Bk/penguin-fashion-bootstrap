@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
+/*               Colors
+------------------------------------------ */
 
 header{
     background-color: #FFF9F4;
@@ -25,13 +27,22 @@ span{
 .price{
     color: #FABE4C;
 }
-.shoe-title{
+.jacket-title{
     color: #363958;
 }
 .last-part-color{
     color: #363958;
 }
 
+
+
+/*--------------------------------------
+                Media Queries
+------------------------------------------ */
+
+
+/*               Mobile device
+------------------------------------------ */
 
 @media only screen and (max-width: 576px) {
     .mobile-banner{
@@ -54,6 +65,10 @@ span{
         text-align: center;
     }
   }
+
+
+  /*               Tablet device
+------------------------------------------ */
 
   @media only screen and (min-width: 768px) and (max-width: 992px) {
     .tablet-last{
