@@ -18,6 +18,10 @@ span{
 .image{
     background-color: rgb(236, 234, 234);
 }
+.btn-color{
+    background: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
+    color: white;
+}
 .price{
     color: #FABE4C;
 }
@@ -30,12 +34,19 @@ span{
 
 
 @media only screen and (max-width: 576px) {
-    .mobile-banner, .mobile-last{
+    .mobile-banner{
       display: flex;
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
+    .mobile-last{
+        display: flex;
+        flex-direction: column-reverse;
+      }
     .mobile-banner-text{
         padding-top: 50px;
+    }
+    .jacket-header{
+        text-align: center;
     }
     .mobile-last2{
         display: flex;
@@ -49,4 +60,7 @@ span{
         display: flex;
         flex-direction: column-reverse;
       }
+      .jacket-header{
+        text-align: center;
+    }
   }
